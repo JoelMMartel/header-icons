@@ -7,7 +7,7 @@ html {
 .title {
   font-weight: bold;
   display: flex;
-  font-size: 2rem;
+  font-size: 1.125rem;
   color: #fff;
   background-color: #d05c2e;
   justify-content: space-between;
@@ -29,23 +29,22 @@ body {
 }
 
 ol {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   background-color: #d05c2e;
-  flex-wrap: nowrap;
+  padding: 0;
 }
 
 li {
-  display: inline;
-  flex-direction: row;
   background-color: #d05c2e;
-  padding: .4em 0;
+  padding: .5em 0;
   border: 1px solid #a63f38;
 }
 
@@ -54,8 +53,4 @@ a {
   background-color: #d05c2e;
   color: #fff;
   padding: .4em 0;
-}
-
-nav {
-  display: block;
 }
